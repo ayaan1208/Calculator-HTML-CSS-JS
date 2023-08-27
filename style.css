@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  font-family : 'Roboto Mono', monospace;
+}
+
+.button{
+  width : 60px;
+  margin : 0 3px;
+  padding : 20px;
+  border : 3px solid grey;
+  border-radius : 10px;
+  cursor : pointer;
+  /*Ayaan-cursor property
+Mouse over the words to change the mouse cursor*/
+}
+
+.row{
+  margin : 8px 0;
+}
+
+.row input{
+  width : 290px;
+  font size : 22px;
+  border : 3px solid grey;
+  border-radius : 8px;
+  margin : 0;
+  padding : 10px 0;
+}
